@@ -1,0 +1,25 @@
+{
+  "name": "key-value-store",
+  "version": "1.0.0",
+  "description": "a version controlled key value store",
+  "main": "store.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycewe/key-value-store.git"
+  },
+  "author": "Eric Ewe (theericewe@live.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ycewe/key-value-store/issues"
+  },
+  "homepage": "https://github.com/ycewe/key-value-store#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "redis": "^2.7.1"
+  }
+}
