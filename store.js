@@ -1,5 +1,5 @@
 var redis = require('redis');
-var config = null;  // add your redis configuration here
+var config = process.env.REDIS_URL || null;  // add your redis configuration here
 
 class Store {
   constructor() {
