@@ -2,7 +2,7 @@
   "name": "key-value-store",
   "version": "1.0.0",
   "description": "a version controlled key value store",
-  "main": "store.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

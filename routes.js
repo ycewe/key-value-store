@@ -8,7 +8,7 @@ router.get('/object/:key', function (req = {}, res) {
     if (err) {
       res.send('Unable to fetch data:' + err);
     } else if (value) {
-      res.send(value[0])
+      res.send(value[0]);
     } else {
       res.send('No such key found');
     }
